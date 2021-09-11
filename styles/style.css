@@ -1,0 +1,272 @@
+* {
+  /* Reset browser's padding and margin */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: "ariel" "sans-serif";
+}
+
+body{
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #222;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Header */
+header{
+  width: 100%;
+  height: 60px;
+  padding-top: 8px;
+  
+}
+
+#bcircle{
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+ margin-right: 6px;
+}
+
+.dots{
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  margin-top: 9px;
+  margin-left: 15px;
+  margin-right: 4px;
+  
+}
+
+.nav-right{
+  float: right;
+  padding-right: 0.5px;
+  
+}
+.nav-right > a{
+  text-decoration: none;
+  margin-right: 10px;
+  height: 60px;
+  text-align: center;
+  color: #70757a;
+}
+
+ul{
+  list-style-type:none;
+  padding:0px;
+  margin:0px;
+  text-align: center;
+  justify-content: center;
+    
+}
+
+header ul > li {
+  display: grid;
+  padding: 0.5rem;
+  
+}
+
+.words{
+  margin-top:10px;
+  text-align: center;
+  margin-right: 3px;
+}
+
+
+
+
+
+/* google logo, textbox and buttons */
+.main {
+  width: 592px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main .main-searchbox{
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.main .main-searchbox .text-searchbox{
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.text-searchbox:hover {
+  box-shadow: 1px 1px 3px 1px #ccc;
+}
+
+.text-searchbox{
+  text-indent: 40px;
+}
+
+.main .main-searchbox .icons{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  align-items: center;
+  pointer-events: none;
+}
+
+.searchbar-rounded-area-border{
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0);
+  border-radius: 24px;
+}
+
+.main .searchbar-rounded-area{
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 482px;
+  width: auto;
+  width: 534.400;   
+}
+
+.searchbuttons{
+  text-align: center;
+  padding: 18px;
+}
+
+.google-search .lucky-punk{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+/* footer parts */
+.footer{
+  position:fixed;
+  bottom:0;
+  font-size: 1.2em;
+  margin-top: 11px;             
+}
+
+
+#country,
+#footer-links{
+  width: 100%;
+  padding: 15px 30px;
+  border: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+}
+
+#footer-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  text-decoration: none;
+}
+
+a#footer-links {
+  position:fixed;
+  bottom:0;
+  color: #70757a;
+  text-decoration: none;
+  justify-content: space-evenly;
+  
+}
+
+#country{
+  position:fixed;
+  bottom:45px;
+  background-color: #f2f2f2;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.nav-right{
+  float: right;
+  padding-right: 0.5px;
+}
+.left > a,
+.right > a{
+  text-decoration: none;
+  color: #70757a;
+}
+
+.left > a{
+  margin-right: 25px;
+}
+
+.right > a{
+  margin-left: 25px;
+}
+
+ul{
+  list-style-type:none;
+  padding:0px;
+  margin:0px;
+}
+
+.footer ul > li {
+  display: grid;
+  padding: 0.5px;
+  
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
